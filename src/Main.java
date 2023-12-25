@@ -34,6 +34,34 @@ public class Main {
         System.out.println("За 3 дня машина произвела " + machinePerformancePer3day + " бутылок");
         System.out.println("За 1 месяц " + machinePerformancePer1month + " бутылок");
 
+        int tinOfPaintForSchool = 120;
+        int whiteTinOfPaintForClass = 2;
+        int brownTinOfPaintForClass = 4;
+        int allSchoolClass = tinOfPaintForSchool / (whiteTinOfPaintForClass + brownTinOfPaintForClass);
+        int whiteTinOfPaintForSchool = whiteTinOfPaintForClass * allSchoolClass;
+        int brownTinOfPaintForSchool = brownTinOfPaintForClass * allSchoolClass;
+        System.out.println("В школе где " + allSchoolClass + " классов, нужно " + whiteTinOfPaintForSchool + " банок белой краски и " + brownTinOfPaintForSchool + " " + " банок коричневой краски");
+
+        int allBanana = 5;
+        int weightAllBanana = allBanana * 80;
+        int allMilk = 2;
+        int weightAllMilk = allMilk * 105;
+        int allAceCream = 2;
+        int weightAllAceCream = allAceCream * 100;
+        int allEgs = 4;
+        int weightAllEgs = allEgs * 70;
+        int cocktail = weightAllBanana + weightAllAceCream + weightAllEgs + weightAllMilk;
+        float cocktailInKilogramm = (weightAllBanana + weightAllAceCream + weightAllEgs + weightAllMilk) / 1000f;
+        System.out.println("Вес коктейля " + cocktail + " грамм" + " или " + cocktailInKilogramm + " килограмм");
+
+
+
+
+
+
+
+
+
 
 
 
