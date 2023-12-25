@@ -24,6 +24,20 @@ public class Main {
         int paperToStudent = paper / (studentTeacher1 + studentTeacher2 + studentTeacher3);
         System.out.println("На каждого ученика расчитано " + paperToStudent + " листов бумаги");
 
+        var machinePerformancePer1min = 16/2;
+        var machinePerformancePer20min = machinePerformancePer1min * 20;
+        var machinePerformancePer1day = machinePerformancePer1min * 60 * 24;
+        var machinePerformancePer3day = machinePerformancePer1day * 3;
+        var machinePerformancePer1month = machinePerformancePer1day * 30;
+        System.out.println("За 20 минут машина произвела " + machinePerformancePer20min + " бутылок" );
+        System.out.println("За сутки машина произвела " + machinePerformancePer1day + " бутылок");
+        System.out.println("За 3 дня машина произвела " + machinePerformancePer3day + " бутылок");
+        System.out.println("За 1 месяц " + machinePerformancePer1month + " бутылок");
+
+
+
+
+
 
 
 
