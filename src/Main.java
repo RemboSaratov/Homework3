@@ -8,6 +8,14 @@ public class Main {
         System.out.println("Значение переменной " + "myMoney " + "с типом " + "byte "  + "равно " + myMoney);
         System.out.println("Значение переменной " + "hands " + "с типом " + "short "  + "равно " + hands  );
         System.out.println("Значение переменной " + "billGatesMoney " + "с типом " + "long "  + "равно " + billGatesMoney  );
+        float variable1 = 27.12f;
+        long variable2 = 987678965549L;
+        float variable3 = 2.786f;
+        short variable4 = 569;
+        short variable5 = -159;
+        short variable6 = 27897;
+        byte variable7 = 67;
+
 
 
 
