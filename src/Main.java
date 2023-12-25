@@ -54,6 +54,18 @@ public class Main {
         float cocktailInKilo = (weightAllBanana + weightAllAceCream + weightAllEgs + weightAllMilk) / 1000f;
         System.out.println("Вес коктейля " + cocktail + " грамм" + " или " + cocktailInKilo+ " килограмм");
 
+        int excessWeight = 7000;
+        int dayForFastWeightLoss = excessWeight / 500;
+        int dayForSlowWeightLoss = excessWeight / 250;
+        int dayForAverageWeightLoss = (dayForFastWeightLoss + dayForSlowWeightLoss) / 2;
+        System.out.println("Теряя в весе 250 грамм в день можно похудеть на 7 килограмм за " + dayForSlowWeightLoss + " дней");
+        System.out.println("Теряя в весе 500 грамм в день можно похудеть на 7 килограмм за " +  dayForFastWeightLoss + " дней");
+        System.out.println("В среднем для похудения на 7 килограмм нужно " + dayForAverageWeightLoss + " дней");
+
+
+
+
+
 
 
 
