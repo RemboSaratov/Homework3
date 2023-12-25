@@ -62,6 +62,21 @@ public class Main {
         System.out.println("Теряя в весе 500 грамм в день можно похудеть на 7 килограмм за " +  dayForFastWeightLoss + " дней");
         System.out.println("В среднем для похудения на 7 килограмм нужно " + dayForAverageWeightLoss + " дней");
 
+        int mashaSalaryForMonth = 67760;
+        int denisSalaryForMonth = 83690;
+        int kristinaSalaryForMonth = 76230;
+        float mashaSalaryIncrease = mashaSalaryForMonth * 1.1f;
+        float denisSalaryIncrease = denisSalaryForMonth * 1.1f;
+        float kristinaSalaryIncrease = kristinaSalaryForMonth * 1.1f;
+        float mashaSalaryDifference = (mashaSalaryIncrease * 12) - (mashaSalaryForMonth * 12);
+        float denisSalaryDifference = (denisSalaryIncrease * 12) - (denisSalaryForMonth * 12);
+        float kristinaSalaryDifference = (kristinaSalaryIncrease * 12) - (kristinaSalaryForMonth * 12);
+        System.out.println("Маша теперь получает " + mashaSalaryIncrease + " рублей. Годовой доход вырос на " + mashaSalaryDifference + " рублей");
+        System.out.println("Денис теперь получает " + denisSalaryIncrease + "рублей. Годовой доход вырос на " + denisSalaryDifference + " рублей");
+        System.out.println("Кристина теперь получает " + kristinaSalaryIncrease + " рублей. Годовой доход вырос на " + denisSalaryDifference + " рублей");
+
+
+
 
 
 
