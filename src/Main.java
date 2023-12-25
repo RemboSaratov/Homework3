@@ -51,8 +51,9 @@ public class Main {
         int allEgs = 4;
         int weightAllEgs = allEgs * 70;
         int cocktail = weightAllBanana + weightAllAceCream + weightAllEgs + weightAllMilk;
-        float cocktailInKilogramm = (weightAllBanana + weightAllAceCream + weightAllEgs + weightAllMilk) / 1000f;
-        System.out.println("Вес коктейля " + cocktail + " грамм" + " или " + cocktailInKilogramm + " килограмм");
+        float cocktailInKilo = (weightAllBanana + weightAllAceCream + weightAllEgs + weightAllMilk) / 1000f;
+        System.out.println("Вес коктейля " + cocktail + " грамм" + " или " + cocktailInKilo+ " килограмм");
+
 
 
 
